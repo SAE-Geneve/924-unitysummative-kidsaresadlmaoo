@@ -122,6 +122,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoxLarge
       objectReference: {fileID: 0}
+    - target: {fileID: 6561569649941957064, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+      propertyPath: m_Size.x
+      value: 0.99052954
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561569649941957064, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5196813
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561569649941957064, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+      propertyPath: m_Size.z
+      value: 1.0021427
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561569649941957064, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+      propertyPath: m_Center.x
+      value: -0.0033576488
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561569649941957064, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+      propertyPath: m_Center.y
+      value: 0.25059322
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561569649941957064, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+      propertyPath: m_Center.z
+      value: 0.0020468235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7538676993092985952, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6431247872273585125, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}

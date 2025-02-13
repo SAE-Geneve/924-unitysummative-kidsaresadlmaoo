@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering.Universal;
 
 public class BoxCatcher : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class BoxCatcher : MonoBehaviour
 
     public void InputCatch(InputAction.CallbackContext context)
     {
+        Debug.Log("InputCatch");
+        
         if (context.performed)
             CatchBox();
         else if (context.canceled)
@@ -75,6 +78,4 @@ public class BoxCatcher : MonoBehaviour
         }
 
     }
-
-
 }
